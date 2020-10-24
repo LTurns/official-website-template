@@ -1,13 +1,8 @@
 <template>
     <div v-swiper:mySwiper="swiperOption">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="(banner, index) in banners" :key="index">
-                <div class="banner-item"
-                    :style="{'background': banner.icon ? `url(${require(`~/assets/img/${banner.icon}`)})` : ''}"
-                    @click="$router.push(banner.url)"/>
-            </div>
+        <div class="banner-item">
+        <h3 class="website_title">LEADERS IN ADVANCED CABLE INSTALLATION</h3>
         </div>
-        <div class="swiper-pagination swiper-pagination-bullets"></div>
     </div>
 </template>
 
@@ -17,11 +12,7 @@ export default {
         return {
             banners: [
                 {
-                    icon: 'bg_dyysb.png',
-                    url: '/'
-                },
-                {
-                    icon: 'bg-sssb.png',
+                    icon: 'man_with_screw.png',
                     url: '/'
                 }
             ],
@@ -46,9 +37,19 @@ export default {
 
 <style lang="scss">
 .banner-item {
-    height: 470px;
+    height: 100vh;
+    background-image: url('../../assets/img/wires.png');
     background-size: cover;
     cursor: pointer;
+}
+
+.website_title {
+    font-size: 72px;
+    text-align: center;
+    padding-top: 18%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
 }
 
 .swiper-pagination-bullet-active {

@@ -11,7 +11,8 @@ module.exports = {
                 hid: 'description',
                 name: 'description',
                 content: 'Nuxt.js project'
-            }
+            }, 
+
         ],
         link: [
             {
@@ -49,5 +50,6 @@ module.exports = {
     plugins: ['~plugins/vue-global', { src: '~plugins/third', ssr: false }],
     env: {
         BASE_URL: process.env.BASE_URL || 'https://cnodejs.org/api/v1'
-    }
+    }, 
+    // modules: ['bootstrap-vue/nuxt']
 }

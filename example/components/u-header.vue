@@ -1,7 +1,7 @@
 <template>
     <div class="u-header">
         <div class="layout clearfix">
-            <u-icon name="logo" to="/" scale="0.15" class="u-header-logo"></u-icon>
+            <nuxt-link to="/" class="u-header-logo"><img src="../assets/img/logo.png" alt="" width="200" height="50"/></nuxt-link>
             <div class="u-header-nav">
                 <ul class="u-header-content">
                     <li v-for="item in navs" :key="item.name" :class="['u-header-content-item',{'disable': item.disable}]">
@@ -62,6 +62,7 @@ export default {
 
 <style lang="scss" scoped>
 .u-header {
+    background-color: white;
     width: 100%;
     font-size: 16px;
     position: absolute;
@@ -79,7 +80,8 @@ export default {
     }
 
     &:hover {
-        background-color: #282727;
+        background-color: white;
+        color: black;
     }
 
     &-logo {
@@ -87,7 +89,8 @@ export default {
         position: relative;
         top: 6px;
         display: inline-block;
-        margin-left: 30px;
+        margin-left: 20px;
+        height: 10%;
     }
 
     &-nav {

@@ -1,30 +1,16 @@
 <template>
   <div>
       <u-banner/>
-      <u-section title="PRODUCTS">
-          <s-first-menu :isNavMenu="false"/>
+      <u-section title="CORONAVIRUS UPDATE">
+          <p class="corona_virus_warning">CBS remains open and are working hard to provide essential services to our telecommunications and electricity industries during these difficult and uncertain times. We want to assure you that we are taking the current situation very seriously, we have staff working from home where possible and have implemented extra precautions throughout the building to ensure the health and safety of our staff, customers and suppliers. As you will be aware, the situation is constantly changing, as is the advice issued by the Government and the World Health Organisation. As a company, we will be listening to the official advice and will act in accordance with it, together with reacting to the situations of both our customers and suppliers, many of which are already operating at reduced levels. Our business may be disrupted at some point in the future but, for now, it is business as usual.
+
+Our thoughts are with those who have been affected by the spread of COVID-19. Please, follow the advise issued by the Government and W.H.O. Stay Safe.</p>
       </u-section>
       <u-section title="PRODUCTS" class="layout">
-        <div>
-            <u-link to="/products">Product 1  </u-link>
-            <u-link :href="link" target="_blank">Product 2</u-link>
-        </div>
-        <div>
-            <u-button size='s' color='primary'>Button组件</u-button>
-            <u-button size='s' color='primary' :href="link">链接百度</u-button>
-            <u-button size='s' color='primary' @click="() => $store.commit('setVisibleForm', true)">打开modal组件</u-button>
-        </div>
-        <div>
-            <u-icon name="close" :href="link"/>
-            <u-icon name="close" :original="false" color="#00FF00"/>
-            <u-icon src="icon.png"/>
-        </div>
-        <div>
-            <u-tabs>
+       <u-tabs>
                 <u-tab title="Tab1">1123</u-tab>
                 <u-tab title="Tab2">1123</u-tab>
-            </u-tabs>
-        </div>
+        </u-tabs>
       </u-section>
   </div>
 </template>
@@ -50,5 +36,10 @@ export default {
     height: 360px;
     background-image: url('https://p.qpic.cn/zckj/0/3e5401081932e825a927a087c87dab891521104527794/0');
     background-size: contain;
+}
+
+.corona_virus_warning {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 </style>
