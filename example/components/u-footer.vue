@@ -3,10 +3,11 @@
         <div class="f-content layout">
             <u-icon name="logo" scale="0.3" href="https://ai.163.com/"></u-icon>
             <div class="linkus">
-                <h3>联系我们</h3>
-                <p>18587878787 王先生</p>
+                <h3>CBS</h3>
+                <p> 020 18587878787 </p>
                 <p>official-website@service.com</p>
-                <p>杭州市滨江区测试测试文字测试文字</p>
+                <p>Address</p>
+                <p>{{copyright}}</p>
             </div>
         </div>
         <div class="f-bottom">
@@ -19,7 +20,7 @@
 export default {
     data() {
         return {
-            copyright: `©1997-${new Date().getFullYear()} 网易公司版权所有`
+            copyright: `©2020-${new Date()}`
         }
     }
 }

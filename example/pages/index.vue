@@ -1,13 +1,13 @@
 <template>
   <div>
       <u-banner/>
-      <u-section title="文章标题">
+      <u-section title="PRODUCTS">
           <s-first-menu :isNavMenu="false"/>
       </u-section>
-      <u-section title="基础组件展示" class="layout">
+      <u-section title="PRODUCTS" class="layout">
         <div>
-            <u-link to="/demo">站内链接  </u-link>
-            <u-link :href="link" target="_blank">站外链接</u-link>
+            <u-link to="/products">Product 1  </u-link>
+            <u-link :href="link" target="_blank">Product 2</u-link>
         </div>
         <div>
             <u-button size='s' color='primary'>Button组件</u-button>

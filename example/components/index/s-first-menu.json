@@ -1,82 +1,82 @@
 [
     {
-        "name": "计算机视觉",
-        "icon": "ai-jsjsj",
+        "name": "Product 1",
+        "icon": "What We Sell",
         "subject": [
             {
-                "name": "OCR",
+                "name": "Telecomms",
                 "rows": [
                     [
                         {
-                            "name": "自然场景",
-                            "url": "/vision/zrcj"
+                            "name": "1",
+                            "url": "/1/1"
                         },
                         {
-                            "name": "文档场景",
-                            "url": "/vision/wdcj"
+                            "name": "2",
+                            "url": "/2/2"
                         }
                     ]
                 ]
             },
             {
-                "name": "图像识别",
+                "name": "Wires",
                 "rows": [
                     [
                         {
-                            "name": "场景识别",
-                            "url": "/vision/cjsb"
+                            "name": "3",
+                            "url": "/3/3"
                         },
                         {
-                            "name": "图像审核",
-                            "url": "/vision/txsh"
+                            "name": "4",
+                            "url": "/4/4"
                         },
                         {
-                            "name": "广告识别",
-                            "url": "/vision/ggsb"
+                            "name": "5",
+                            "url": "/5/5"
                         }
                     ]
                 ]
             },
             {
-                "name": "人脸识别",
+                "name": "Equipment",
                 "rows": [
                     [
                         {
-                            "name": "人脸检测",
-                            "url": "/vision/rljc"
+                            "name": "6",
+                            "url": "/6/6"
                         },
                         {
-                            "name": "人脸属性分析",
-                            "url": "/vision/rlsxfx"
+                            "name": "7",
+                            "url": "/7/7"
                         }
                     ],
                     [
                         {
-                            "name": "人脸验证",
-                            "url": "/vision/rlyz"
+                            "name": "8",
+                            "url": "/8/8"
                         },
                         {
-                            "name": "面部关键点定位",
-                            "url": "/vision/mbgjddw"
+                            "name": "9",
+                            "url": "/9/9"
                         }
                     ]
                 ]
             },
             {
-                "name": "图片特效",
+                "name": "Plugs",
                 "rows": [
                     [
                         {
-                            "name": "人脸美肤",
-                            "url": "/vision/rlmf"
+                            "name": "10",
+                            "url": "/10/10"
                         },
                         {
-                            "name": "人脸美型",
-                            "url": "/vision/rlmx"
+                            "name": "11",
+                            "url": "/11/11"
                         },
                         {
-                            "name": "人脸贴图",
-                            "url": "/vision/rltt"
+                            "name": "12",
+                            "url": "/12/12"
                         }
                     ],
                     [
@@ -88,61 +88,42 @@
                 ]
             },
             {
-                "name": "视频理解",
+                "name": "yoo",
                 "rows": [
                     [
                         {
-                            "name": "视频标签",
-                            "url": "/vision/spdbq"
+                            "name": "11",
+                            "url": "/11/11"
                         }
                     ]
                 ]
             },
             {
-                "name": "人体分析",
+                "name": "hello",
                 "rows": [
                     [
                         {
-                            "name": "客流分析",
-                            "url": "/vision/klgj"
+                            "name": "12",
+                            "url": "/12/12"
                         },
                         {
-                            "name": "手势识别",
-                            "url": "/vision/sssb"
+                            "name": "13",
+                            "url": "/13/14"
                         }
                     ]
                 ]
             },
             {
-                "name": "视觉跟踪",
+                "name": "type of product",
                 "rows": [
                     [
                         {
-                            "name": "2D物体跟踪",
-                            "url": "/vision/sjgz"
+                            "name": "14",
+                            "url": "/14/14"
                         },
                         {
-                            "name": "3D物体跟踪",
-                            "url": "/vision/sjgz"
-                        }
-                    ]
-                ]
-            },
-            {
-                "name": "三维场景重建",
-                "rows": [
-                    [
-                        {
-                            "name": "场景理解",
-                            "url": "/vision/swcjcj"
-                        },
-                        {
-                            "name": "视觉SLAM",
-                            "url": "/vision/swcjcj"
-                        },
-                        {
-                            "name": "VIO",
-                            "url": "/vision/swcjcj"
+                            "name": "15",
+                            "url": "/15/15"
                         }
                     ]
                 ]
@@ -150,7 +131,7 @@
         ]
     },
     {
-        "name": "智能语音",
+        "name": "Product 2",
         "icon": "ai-znyy",
         "subject": [
             {
@@ -201,7 +182,7 @@
         ]
     },
     {
-        "name": "自然语言处理",
+        "name": "Product 3",
         "icon": "ai_zryycl",
         "subject": [
             {
@@ -260,7 +241,7 @@
         ]
     },
     {
-        "name": "数据智能",
+        "name": "Product 4",
         "icon": "ai_sjzn",
         "subject": [
             {

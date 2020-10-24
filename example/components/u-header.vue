@@ -7,12 +7,12 @@
                     <li v-for="item in navs" :key="item.name" :class="['u-header-content-item',{'disable': item.disable}]">
                         <u-link v-if="item.url" :to="item.url">{{item.name}}</u-link>
                         <p v-else ><span class="hasmenu">{{item.name}}</span><i class="arraw down"></i></p>
-                        <div class="cat" v-if="item.name==='菜单1'">
+                        <div class="cat" v-if="item.name==='PRODUCTS'">
                             <div class="cat-box">
                                 <s-first-menu />
                             </div>
                         </div>
-                        <div class="cat" v-if="item.name==='菜单2'">
+                        <div class="cat" v-if="item.name==='NEWS'">
                             <div class="cat-box">
                                 <s-second-menu />
                             </div>
@@ -37,14 +37,22 @@ export default {
         return {
             navs: [
                 {
-                    name: '菜单1'
+                    name: 'PRODUCTS'
                 },
                 {
-                    name: '菜单2'
+                    name: 'NEWS'
                 },
                 {
-                    name: '行业方案',
-                    url: '/'
+                    name: 'ABOUT US',
+                    url: '/about'
+                },
+                {
+                    name: 'WHERE TO BUY',
+                    url: '/buy'
+                }, 
+                {
+                    name: 'CONTACT US',
+                    url: '/contact'
                 }
             ]
         }
@@ -55,14 +63,14 @@ export default {
 <style lang="scss" scoped>
 .u-header {
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     position: absolute;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: black;
     z-index: 100;
-    transition: background 0.3s ease;
+    // transition: background 0.3s ease;
 
     .layout {
         min-width: $content-width;
@@ -83,16 +91,17 @@ export default {
     }
 
     &-nav {
-        float: left;
+        float: right;
+        margin-right: 5%;
 
         .u-header-content-item {
             float: left;
             text-align: center;
-            padding: 20px 24px;
+            padding: 20px 26px;
             cursor: pointer;
 
             &.disable {
-                color: rgba(255, 255, 255, 0.4);
+                color: black;
                 cursor: default;
 
                 .u-link {
@@ -106,6 +115,7 @@ export default {
 
             &:hover {
                 background-color: $black;
+                color: white;
 
                 .cat-box {
                     transform: scaleY(1);
@@ -133,6 +143,7 @@ export default {
         color: #fff;
         box-sizing: border-box;
         padding-left: 20px;
+        font-size: 15px;
         background-color: $black;
         position: absolute;
         width: 100%;
@@ -143,6 +154,7 @@ export default {
         transform: scaleY(0);
         transform-origin: center top;
         cursor: default;
+        background-color: black;
     }
 }
 </style>
