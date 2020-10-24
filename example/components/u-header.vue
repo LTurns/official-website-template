@@ -49,7 +49,7 @@ export default {
                 {
                     name: 'WHERE TO BUY',
                     url: '/buy'
-                }, 
+                },
                 {
                     name: 'CONTACT US',
                     url: '/contact'

@@ -3,24 +3,21 @@
         {
             "name": "Blog",
             "icon": "solution-sfyz",
-            "desc":
-                "Take a look into the most recent updates of CBS.",
+            "desc": "Take a look into the most recent updates of CBS.",
             "url": "/solution/sfyz",
             "bgImage": "solution-sfyz-h.png"
         },
         {
             "name": "Social Media",
             "icon": "solution-rlmy",
-            "desc":
-                "Follow us on Facebook, Linkedin and Twitter to get the latest insights.",
+            "desc": "Follow us on Facebook, Linkedin and Twitter to get the latest insights.",
             "url": "/solution/rlmy",
             "bgImage": "solution-rlmy-h.png"
         },
         {
             "name": "New Hires",
             "icon": "solution-znhy",
-            "desc":
-                "Take a look at some of our most recent hires!",
+            "desc": "Take a look at some of our most recent hires!",
             "url": "/solution/znhy",
             "bgImage": "solution-znhy-h.png"
         },

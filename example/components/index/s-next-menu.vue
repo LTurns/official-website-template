@@ -25,7 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .description {
     padding-top: 3%;
     font-size: 12px;
